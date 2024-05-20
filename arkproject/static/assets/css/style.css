@@ -1,9 +1,9 @@
 /**
 * Template Name: Vesperr
-* Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
+* Template URL: https://ruhi.com/vesperr-free-bootstrap-template/
 * Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* Author: ruhi.com
+* License: https://ruhi.com/license/
 */
 
 /*--------------------------------------------------------------
@@ -90,6 +90,12 @@ h6 {
   padding: 12px 0;
 }
 
+.logo{}
+#header .logo {
+  display: flex;
+  align-items: center;
+}
+
 #header .logo h1 {
   font-size: 30px;
   margin: 0;
@@ -107,8 +113,9 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  margin: 0;
+  margin-left: 10px; /* Add some margin to the left of the image for spacing */
   max-height: 40px;
+  vertical-align: middle;
 }
 
 /*--------------------------------------------------------------

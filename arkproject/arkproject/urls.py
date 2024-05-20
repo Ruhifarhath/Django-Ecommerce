@@ -21,4 +21,5 @@ from arkapp.views import first_view
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('arkapp.urls')),
+    path('arkauth/', include('arkauth.urls')),  #path can be set to anything custom type 
 ]
