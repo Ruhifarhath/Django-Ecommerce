@@ -90,10 +90,17 @@ h6 {
   padding: 12px 0;
 }
 
-.logo{}
+
 #header .logo {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
+}
+#header .logo #swan-logo{
+  margin-right: 12px;
+}
+#header .logo #iit-kgp-logo{
+  margin-left: 12px;
 }
 
 #header .logo h1 {
@@ -359,6 +366,13 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
+#hero #swan-main-img{
+    border-radius: 60px;
+}
+#hero .top-div-box{
+  margin-left: 40px;
+} 
 #hero {
   width: 100%;
   height: 70vh;
@@ -551,6 +565,12 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+#about #about-para{
+  line-height: rem;
+}
+#counts #swan-group{
+  border-radius: 30px;
+}
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
